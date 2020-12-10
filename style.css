@@ -1,0 +1,380 @@
+# sealdin.github.io
+body, html {
+    max-width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden!important;
+}
+
+body {
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+}
+
+#boyko {
+    color: #A99362;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13vw;
+    margin: 0;
+}
+
+.navbar {
+    left: 70%;
+    position: fixed;
+    top: -1.9vh;
+}
+
+.menu a {
+    color: #A99362;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    list-style-type: none;
+    font-size: 1.5vw;
+    top: -2vw;
+    position: center;
+}
+
+.menu > li {
+    display: inline;
+    padding: 1vw;
+}
+
+.menu {
+    padding: 1vw;
+    background-color: black;
+    border-radius: 7vw 7vw;
+}
+
+#logo {
+    width: 2vw;
+}
+ 
+.logo-one {
+    background: black;
+    height: 50vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+.insta-link {
+    color: #A99362;
+}
+.portrait-img {
+    width: 40vw;
+    grid-column: 1;
+    padding-top: 0;
+    padding-left: 10%; 
+    grid-row: 1/ span 3;
+}
+
+.logoimg {
+    width: 20%;
+    padding-top: 30%;
+    padding-left: 77%;
+    padding-bottom: 5%;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#pi {
+    width: 100%;
+}
+
+.insta {
+    color: #A99362;
+    font-family: 'Noto Sans', sans-serif;
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 30%;
+    padding-top: 40%;
+}
+
+div {
+    max-width: 100%;
+    
+}
+.container {
+    width: 100vw;
+    max-width: 100%;
+    height: 49vw;
+    margin: 0;
+    padding: 0px;
+    
+}
+#home {
+    position: top;
+    height: 100%; 
+    background: url(fon2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+#poetry-name {
+    color: #A99362;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13vw;
+    margin: 0;
+    
+    position: centre;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 3%;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+#poetry {
+    height: 49.3vw;
+    position: top;
+    background: url(poem.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+   
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#poem-text {
+    position: center;
+    grid-column: 2;
+    grid-row: 4;
+    padding-right: 30%;
+    color: darkgrey;
+    font-size: 1.4vw;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.poems123 {
+    height: 49.3vw;
+    top: 4vw;
+    background: url(poems.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 15vw);
+}
+
+.poem-p {
+    font-size: 1.05vw;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    margin: 0;
+}
+
+.poem5 {
+    padding-top: 2vw;
+    grid-column: 1;  
+}
+
+.poem1 {
+    padding-top: 2vw;
+    grid-column: 1; 
+    grid-row: 2;
+}
+
+.poem3 {
+    padding-top: 4vw;
+    grid-row: 1;
+    grid-column: 2;  
+}
+
+.poem4 {
+    padding-top: 4vw;
+    grid-column: 2;  
+    grid-row: 2/ span 2;
+}
+
+.poem2 {
+    padding-top: 2vw;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+h3 {
+    position: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 30%;
+    font-size: 200%;
+    margin: 0;
+}
+
+.poems12 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 49.3vw;
+    
+    background: url(fon1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+#study {
+    height: 100%; 
+    background: url(fon4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#study-name {
+    color: #A99362;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13vw;
+    margin: 0;
+    background-color: rgba(23,11,3, 0.9);
+    
+    position: centre;
+    grid-column: 1/ span 3;
+    grid-row: 2/ span 1;
+}
+
+#works {
+    height: 100%; 
+    background: url(fon5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.works-name {
+    color: #A99362;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 9vw;
+    margin: 0;
+    
+    grid-column: 2;
+    padding-left: 17%;
+    padding-top: 50%;
+}
+
+
+.study-container {
+    height: 49.3vw; 
+    background: url(fon6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.study-text-container {
+    padding-top: 1.5vw;
+    grid-row: 2;
+    padding-right: 1.5vw;
+    padding-bottom: 1.3vw;
+    padding-left: 1vw;
+    left: 3vw;
+}
+
+.study-text {
+    padding-bottom: 2%;
+    font-size: 1.05vw;
+    grid-column: 2;
+}
+
+.study-link {
+    color: black;
+}
+
+.portfolio1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works1 {
+    height: 43.1vw;
+}
+
+.line {
+    height: 15vw;
+}
+
+.portfolio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works2 {
+    height: 48.8vw;
+}
+
+.portfolio3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works3 {
+    height: 43.3vw;
+}
+
+.portfolio4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works4 {
+    height: 38.5vw;
+}
+
+.portfolio5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works5 {
+    height: 32vw;
+}
+
+.line3 {
+    height: 15vw;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#year {
+    color: #A99362;
+    font-family: 'Bad Script', cursive;
+    font-size: 1vw;
+    margin: 0;
+    position: center;
+    grid-row: 3;
+    padding-left: 49%;
+}
